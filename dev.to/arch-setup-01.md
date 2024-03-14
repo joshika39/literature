@@ -61,13 +61,16 @@ You can follow this article series to learn more about those.
 #### bashrc
 There are a lot of convenience aliases comes with the bashrc files:
 ```bash
-bcr # the default for `brc --download` and pulls the latest versions of the bash files from the local yozora repo
-bcr --upload # upload the files to the local repo, so that you can also version control your modifications
+brc # the default for `brc --download` and pulls the latest versions of the bash files from the local yozora repo
+brc --upload # upload the files to the local repo, so that you can also version control your modifications
 refresh # Sources the bash filse
 ```
 #### Git
 
-`gclone` is a powerful alias to clone repositories from custom hosts (*github is the default with ssh, and the logged in user*): `usage: gclone <repo> [user] [host] [is_ssh]`
+`gclone` is a powerful alias to clone repositories from custom hosts (*github is the default with ssh, and the logged in user*):
+```
+usage: gclone <repo> [user] [host] [is_ssh]
+```
 `gl` is a [lazygit](https://github.com/jesseduffield/lazygit) extended command, fist refreshes the deleted remote branches and then opens lazygit.
 
 #### Other tools
