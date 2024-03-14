@@ -33,6 +33,13 @@ Since the X11 protocol is older then the Wayland protocol, hence the X server ha
 These are optional packages you can install to have visual login screen, but you can live perfectly fine without one. I personally don't like using one, because I like to switch between configuration, which is easier to start from the terminal.
 Display manager is basically the login screen. Some of the favorites: [SDDM (X11 and Wayland)](https://wiki.archlinux.org/title/SDDM), [GDM (X11 and Wayland)](https://wiki.archlinux.org/title/GDM), [LightDM (X11)](https://wiki.archlinux.org/title/LightDM) 
 
+
+# Yozora
+
+The configuration got its name from the Japanese word 夜空(よぞら) meaning *night sky*.
+
+You can browse the repo here: https://github.com/joshika39/yozora. If you have any idea on some improvements, feel free to [Create an Issue](https://github.com/joshika39/yozora/issues/new) 
+
 ## Capabilities
 
 ### Package collection installation
@@ -66,6 +73,9 @@ refresh # Sources the bash filse
 #### Other tools
 
 `dotnet_install` can easily install multiple dotner versions
+
+## Stars always welcomed
+If you liked my approach, and you have a few extra second you are very welcomed to star me on Github🌟: https://github.com/joshika39/yozora
 ## How to get started
 ### Disclaimer
 These tools are currently only supports the Arch Linux package manager and Aur to install packages. The other non-package related scripts were written in bash, so those are distro independent
@@ -79,4 +89,4 @@ git clone https://github.com/joshika39/yozora.git ~/.config/yozora && cd ~/.conf
 source ~/.bashrc
 ```
 ## Contribution
-If you found any mistake, that I wrote, please comment it so that I can fix it. Or you can find these articles in my [Github Repository](https://github.com/joshika39/literature/blob/main/dev.to/arch-setup-01.md)
+If you found any mistake, that I wrote, please comment it so that I can fix it. Or you can find these articles in my [Github Repository](https://github.com/joshika39/literature/blob/main/dev.to/arch-setup-01.md) and open an issue for improvement.
