@@ -70,8 +70,13 @@ refresh # Sources the bash filse
 ### Disclaimer
 These tools are currently only supports the Arch Linux package manager and Aur to install packages. The other non-package related scripts were written in bash, so those are distro independent
 
-From the time you finished installing your OS, you can
+From the time you finished installing your OS, you can run:
+```bash
+git clone https://github.com/joshika39/yozora.git ~/.config/yozora && cd ~/.config/yozora
 
+./shell/bash/updater.sh --download
 
+source ~/.bashrc
+```
 ## Contribution
-If you found any mistake, that I wrote, please comment it so that I can fix it. Or you can find these articles in my [Github Repository]()
+If you found any mistake, that I wrote, please comment it so that I can fix it. Or you can find these articles in my [Github Repository](https://github.com/joshika39/literature/blob/main/dev.to/arch-setup-01.md)
